@@ -29,10 +29,7 @@ nav ul li{
 .hero{
     background-image: url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
     background-size:contain;
-    
     background-repeat: no-repeat;
-    
-
     width: 100%;
     min-height: 100vh;
    
