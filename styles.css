@@ -29,6 +29,7 @@ nav ul li{
     background-image: url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
     background-size:contain;
     background-repeat: no-repeat;
+    
 
     width: 100%;
     height: 100vh;
@@ -58,6 +59,61 @@ nav ul li{
     font-size:18px;
     font-weight: 400;
     line-height: 24px;
+}
+
+.cards-content{
+    text-align: center;
+
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 24px;
+}
+
+.card{
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    background: rgba(255, 255, 255, 1);
+    height: 300px;
+    width: 322px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: auto;
+    text-align: center;
+}
+.card img{
+     background: rgba(249, 85, 85, 1);
+     padding: 10px;
+     border-radius: 100px;
+}
+
+.card h3{
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 12px 24px;
+
+
+
+}
+
+.card p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 20px;
+    margin: 0 8px;
+    max-width: 274px;
+    text-align: center;
+  
+
+
 }
 
 /* Buttons */
