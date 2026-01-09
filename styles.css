@@ -115,6 +115,55 @@ nav ul li{
 
 
 }
+.knowledge-container{
+    display: flex;
+    margin: 120px;
+    gap: 60px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.knowldege-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    text-align: left;
+    
+}
+
+.knowldege-content h4{
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 20px;
+    
+    color: #469165;
+    
+
+}
+
+.knowldege-content h1{
+    font-size: 48px;
+    font-weight: 700px;
+    line-height: 58px;
+
+}
+.knowldege-content .knowledge-para{
+    max-width: 700px;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 20px;
+    color: #627382;
+
+}
+
+.knowldege-content .ticks{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+}
 
 /* Buttons */
 .btn{
