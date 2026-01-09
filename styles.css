@@ -27,7 +27,7 @@ nav ul li{
 }
 
 .hero{
-    background-image: url(./assets/hero-bg.png);
+    background-image: url(assets/hero-bg.png);
     background-size:contain;
     background-repeat: no-repeat;
     width: 100%;
